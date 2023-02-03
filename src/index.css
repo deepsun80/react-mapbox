@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.root {
+  width: '100%';
+  height: '100vh';
+  position: 'relative'; 
+}
+
+.mapboxgl-popup {
+  max-width: none !important;
+}
+
+.mapboxgl-popup-content {
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px !important;
+}
+
+.layer-button {
+  position: absolute;
+  z-index: 1;
+  top: 10px; 
+  right: 10px; 
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 10%);
+
+  cursor: pointer;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.popup-title {
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+.popup-text {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.popup-weather-row {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-weather-col {
+  display: flex;
+  align-items: center;
+}
+
+.popup-weather-icon {
+  margin-right: 0.25rem;
+  width: 2.75em;
+}
+
+.weather-text {
+  text-transform: capitalize;
+}
